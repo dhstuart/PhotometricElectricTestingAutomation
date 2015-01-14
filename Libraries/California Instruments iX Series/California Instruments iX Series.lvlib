@@ -14,22 +14,22 @@ California Instruments iX Series AC DC Power Source.</Property>
 			<Item Name="Action-Status.mnu" Type="Document" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Action-Status/Action-Status.mnu"/>
 			<Item Name="Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Action-Status/Abort.vi"/>
 			<Item Name="Initiate Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Action-Status/Initiate Trigger.vi"/>
-			<Item Name="Query Waveform List.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Action-Status/Query Waveform List.vi"/>
+			<Item Name="Query Waveform List.vi" Type="VI" URL="../Public/Action-Status/Query Waveform List.vi"/>
 			<Item Name="Send Software Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Action-Status/Send Software Trigger.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
 			<Item Name="Configure.mnu" Type="Document" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Configure/Configure.mnu"/>
-			<Item Name="Enable Output.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Configure/Enable Output.vi"/>
+			<Item Name="Enable Output.vi" Type="VI" URL="../Public/Configure/Enable Output.vi"/>
 			<Item Name="Configure Active Phase.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Configure/Configure Active Phase.vi"/>
 			<Item Name="Configure Operation.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Configure/Configure Operation.vi"/>
-			<Item Name="Configure Current.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Configure/Configure Current.vi"/>
-			<Item Name="Configure Frequency.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Configure/Configure Frequency.vi"/>
+			<Item Name="Configure Current.vi" Type="VI" URL="../Public/Configure/Configure Current.vi"/>
+			<Item Name="Configure Frequency.vi" Type="VI" URL="../Public/Configure/Configure Frequency.vi"/>
 			<Item Name="Configure Frequency Slew Rate.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Configure/Configure Frequency Slew Rate.vi"/>
-			<Item Name="Configure Voltage.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Configure/Configure Voltage.vi"/>
+			<Item Name="Configure Voltage.vi" Type="VI" URL="../Public/Configure/Configure Voltage.vi"/>
 			<Item Name="Configure Voltage Slew Rate.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Configure/Configure Voltage Slew Rate.vi"/>
-			<Item Name="Configure OVP.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Configure/Configure OVP.vi"/>
+			<Item Name="Configure OVP.vi" Type="VI" URL="../Public/Configure/Configure OVP.vi"/>
 			<Item Name="Configure List.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Configure/Configure List.vi"/>
-			<Item Name="Configure Phase.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Configure/Configure Phase.vi"/>
+			<Item Name="Configure Phase.vi" Type="VI" URL="../Public/Configure/Configure Phase.vi"/>
 			<Item Name="Configure Pulse.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Configure/Configure Pulse.vi"/>
 			<Item Name="Configure Sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Configure/Configure Sweep.vi"/>
 			<Item Name="Configure Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Configure/Configure Trigger.vi"/>
@@ -43,30 +43,30 @@ California Instruments iX Series AC DC Power Source.</Property>
 			<Item Name="Read Current Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Data/Read Current Measurement.vi"/>
 			<Item Name="Read Single Current Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Data/Read Single Current Measurement.vi"/>
 			<Item Name="Read Multiple Current Measurements.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Data/Read Multiple Current Measurements.vi"/>
-			<Item Name="Read Voltage Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Data/Read Voltage Measurement.vi"/>
-			<Item Name="Read Single Voltage Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Data/Read Single Voltage Measurement.vi"/>
-			<Item Name="Read Multiple Voltage Measurements.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Data/Read Multiple Voltage Measurements.vi"/>
+			<Item Name="Read Voltage Measurement.vi" Type="VI" URL="../Public/Data/Read Voltage Measurement.vi"/>
+			<Item Name="Read Single Voltage Measurement.vi" Type="VI" URL="../Public/Data/Read Single Voltage Measurement.vi"/>
+			<Item Name="Read Multiple Voltage Measurements.vi" Type="VI" URL="../Public/Data/Read Multiple Voltage Measurements.vi"/>
 			<Item Name="Read Power Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Data/Read Power Measurement.vi"/>
 			<Item Name="Read Frequency Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Data/Read Frequency Measurement.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Utility/Utility.mnu"/>
 			<Item Name="Clear Protection Alarm.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Utility/Clear Protection Alarm.vi"/>
-			<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Utility/Error Query.vi"/>
-			<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Utility/Reset.vi"/>
+			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
+			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
 			<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Utility/Revision Query.vi"/>
 			<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Utility/Self-Test.vi"/>
 			<Item Name="System Options.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Utility/System Options.vi"/>
 		</Item>
 		<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/dir.mnu"/>
-		<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Close.vi"/>
-		<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/Initialize.vi"/>
+		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
 		<Item Name="VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Public/VI Tree.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Private/Default Instrument Setup.vi"/>
-		<Item Name="Remove Error.vi" Type="VI" URL="/&lt;instrlib&gt;/California Instruments iX Series/Private/Remove Error.vi"/>
+		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
+		<Item Name="Remove Error.vi" Type="VI" URL="../Private/Remove Error.vi"/>
 	</Item>
 	<Item Name="California Instruments iX Series Readme.html" Type="Document" URL="/&lt;instrlib&gt;/California Instruments iX Series/California Instruments iX Series Readme.html"/>
 </Library>
