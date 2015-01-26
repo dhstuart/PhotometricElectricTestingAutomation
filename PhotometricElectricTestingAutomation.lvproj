@@ -10,6 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Build Filename.vi" Type="VI" URL="../Functions/Build Filename.vi"/>
 		<Item Name="Collect additional metadata.vi" Type="VI" URL="../Functions/Collect additional metadata.vi"/>
 		<Item Name="Load Product and sample Metadata.vi" Type="VI" URL="../Functions/Load Product and Sample Metadata/Load Product and sample Metadata.vi"/>
 		<Item Name="matlabtest.vi" Type="VI" URL="../Functions/Load Product and Sample Metadata/matlabtest.vi"/>
@@ -460,6 +461,7 @@
 			<Item Name="StateMachineStates 1.ctl" Type="VI" URL="../Functions/Load Product and Sample Metadata/StateMachineStates 1.ctl"/>
 			<Item Name="StateMachineStates.ctl" Type="VI" URL="../Functions/Electrical Measurements/Controls/StateMachineStates.ctl"/>
 			<Item Name="Take Flicker Measurement.vi" Type="VI" URL="../Functions/Flicker Measurements/Take Flicker Measurement.vi"/>
+			<Item Name="write electrical data.vi" Type="VI" URL="../Functions/Electrical Measurements/write electrical data.vi"/>
 			<Item Name="write flicker file.vi" Type="VI" URL="../Functions/Flicker Measurements/write flicker file.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
