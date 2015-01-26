@@ -14,7 +14,7 @@
 		<Item Name="Collect additional metadata.vi" Type="VI" URL="../Functions/Collect additional metadata.vi"/>
 		<Item Name="Load Product and sample Metadata.vi" Type="VI" URL="../Functions/Load Product and Sample Metadata/Load Product and sample Metadata.vi"/>
 		<Item Name="matlabtest.vi" Type="VI" URL="../Functions/Load Product and Sample Metadata/matlabtest.vi"/>
-		<Item Name="Meta Data Error Check.vi" Type="VI" URL="../Functions/Meta Data Error Check.vi"/>
+		<Item Name="Meta Data Voltage Check.vi" Type="VI" URL="../Functions/Meta Data Voltage Check.vi"/>
 		<Item Name="PhotometricElectricTestingAutomation - Main.vi" Type="VI" URL="../PhotometricElectricTestingAutomation - Main.vi"/>
 		<Item Name="Stabilization.ctl" Type="VI" URL="../Functions/Stabilize and measure/Stabilization.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
