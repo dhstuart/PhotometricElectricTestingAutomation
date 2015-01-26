@@ -15,6 +15,7 @@
 		<Item Name="California Instruments iX Series.lvlib" Type="Library" URL="../../../Libraries/California Instruments iX Series/California Instruments iX Series.lvlib"/>
 		<Item Name="Electrical Measurements - Main.vi" Type="VI" URL="../Electrical Measurements - Main.vi"/>
 		<Item Name="waveform test.vi" Type="VI" URL="../waveform test.vi"/>
+		<Item Name="write electrical data.vi" Type="VI" URL="../write electrical data.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -49,6 +50,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Cal Inst - Initialize.vi" Type="VI" URL="../California Instruments/Cal Inst - Initialize.vi"/>
+			<Item Name="Cal Inst - raw to waveform array.vi" Type="VI" URL="../California Instruments/Cal Inst - raw to waveform array.vi"/>
 			<Item Name="electrical.ctl" Type="VI" URL="../Controls/electrical.ctl"/>
 			<Item Name="StateMachineStates 1.ctl" Type="VI" URL="../Controls/StateMachineStates 1.ctl"/>
 		</Item>
