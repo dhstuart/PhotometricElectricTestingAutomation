@@ -12,6 +12,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Build Filename.vi" Type="VI" URL="../Functions/Build Filename.vi"/>
 		<Item Name="Collect additional metadata.vi" Type="VI" URL="../Functions/Collect additional metadata.vi"/>
+		<Item Name="delete bad files.vi" Type="VI" URL="../Functions/delete bad files.vi"/>
+		<Item Name="Grab from metadata.vi" Type="VI" URL="../Functions/Grab from metadata.vi"/>
 		<Item Name="Load Product and sample Metadata.vi" Type="VI" URL="../Functions/Load Product and Sample Metadata/Load Product and sample Metadata.vi"/>
 		<Item Name="matlabtest.vi" Type="VI" URL="../Functions/Load Product and Sample Metadata/matlabtest.vi"/>
 		<Item Name="Meta Data Voltage Check.vi" Type="VI" URL="../Functions/Meta Data Voltage Check.vi"/>
@@ -98,6 +100,7 @@
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="compatWriteText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatWriteText.vi"/>
+				<Item Name="Convert 1DDbl to DDT 2.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/Convert 1DDbl to DDT 2.vi"/>
 				<Item Name="Convert 1DWfm to DDT.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/Convert 1DWfm to DDT.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
@@ -233,6 +236,7 @@
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
 				<Item Name="DAQmx Rollback Channel If Error.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Rollback Channel If Error.vi"/>
 				<Item Name="DAQmx Set CJC Parameters (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Set CJC Parameters (sub).vi"/>
+				<Item Name="DAQmx Start Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Start Task.vi"/>
 				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
 				<Item Name="DAQmx Timing (Burst Export Clock).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Burst Export Clock).vi"/>
 				<Item Name="DAQmx Timing (Burst Import Clock).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Burst Import Clock).vi"/>
@@ -376,6 +380,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -440,12 +445,15 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="add amp gain metadata.vi" Type="VI" URL="../Functions/add amp gain metadata.vi"/>
 			<Item Name="Built electrical data file.vi" Type="VI" URL="../Functions/Electrical Measurements/Built electrical data file.vi"/>
 			<Item Name="Cal Inst - Initialize.vi" Type="VI" URL="../Functions/Electrical Measurements/California Instruments/Cal Inst - Initialize.vi"/>
 			<Item Name="Cal Inst - raw to waveform array.vi" Type="VI" URL="../Functions/Electrical Measurements/California Instruments/Cal Inst - raw to waveform array.vi"/>
 			<Item Name="Cal Inst - read electrical data.vi" Type="VI" URL="../Functions/Electrical Measurements/California Instruments/Cal Inst - read electrical data.vi"/>
 			<Item Name="Cal Inst current voltage waveforms.vi" Type="VI" URL="../Functions/Electrical Measurements/California Instruments/Cal Inst current voltage waveforms.vi"/>
 			<Item Name="California Instruments iX Series.lvlib" Type="Library" URL="../Libraries/California Instruments iX Series/California Instruments iX Series.lvlib"/>
+			<Item Name="Check New Data Point.ctl" Type="VI" URL="../Functions/Check New Data Point.ctl"/>
+			<Item Name="Data Trends.vi" Type="VI" URL="../Functions/Data Trends.vi"/>
 			<Item Name="electrical.ctl" Type="VI" URL="../Functions/Electrical Measurements/Controls/electrical.ctl"/>
 			<Item Name="error handler.vi" Type="VI" URL="../Functions/error handler.vi"/>
 			<Item Name="LM79 Stabilization.vi" Type="VI" URL="../Functions/Stabilize and measure/LM79 Stabilization.vi"/>
@@ -453,9 +461,12 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="New Data in Range.vi" Type="VI" URL="../Functions/New Data in Range.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Outlier Check.vi" Type="VI" URL="../Functions/Outlier Check.vi"/>
+			<Item Name="prediction bounds.vi" Type="VI" URL="../Functions/prediction bounds.vi"/>
 			<Item Name="Reformat Cal Inst data files.vi" Type="VI" URL="../Functions/Electrical Measurements/Reformat Cal Inst data files.vi"/>
 			<Item Name="Stabilize and Measure.vi" Type="VI" URL="../Functions/Stabilize and measure/Stabilize and Measure.vi"/>
 			<Item Name="StateMachineStates 1.ctl" Type="VI" URL="../Functions/Load Product and Sample Metadata/StateMachineStates 1.ctl"/>
