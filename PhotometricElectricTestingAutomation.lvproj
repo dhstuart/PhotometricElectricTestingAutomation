@@ -11,8 +11,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Build Filename.vi" Type="VI" URL="../Functions/Build Filename.vi"/>
+		<Item Name="Cal Inst - Take Electrical Measurements.vi" Type="VI" URL="../Functions/Electrical Measurements/California Instruments/Cal Inst - Take Electrical Measurements.vi"/>
 		<Item Name="Collect additional metadata.vi" Type="VI" URL="../Functions/Collect additional metadata.vi"/>
 		<Item Name="delete bad files.vi" Type="VI" URL="../Functions/delete bad files.vi"/>
+		<Item Name="Files already exsist.vi" Type="VI" URL="../Functions/Files already exsist.vi"/>
 		<Item Name="Grab from metadata.vi" Type="VI" URL="../Functions/Grab from metadata.vi"/>
 		<Item Name="Load Product and sample Metadata.vi" Type="VI" URL="../Functions/Load Product and Sample Metadata/Load Product and sample Metadata.vi"/>
 		<Item Name="matlabtest.vi" Type="VI" URL="../Functions/Load Product and Sample Metadata/matlabtest.vi"/>
